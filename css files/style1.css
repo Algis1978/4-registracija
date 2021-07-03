@@ -1,6 +1,34 @@
 .background {
+  display: block;
+  border: 3px cyan solid;
+  width: 100%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Fitz_Roy_1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: auto;
 }
 .eilute {
   display: block;
+  border: 1px cyan solid;
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+.kairysis-stulpelis {
+  display: inline-block;
+  border: 1px cyan solid;
+  width: 40%;
+  float: left;
+  margin-top: 20px;
+}
+.desinysis-stulpelis {
+  display: inline-block;
+  border: 1px cyan solid;
+  width: 59%;
+}
+.privatumas {
+  display: inline-block;
   border: 1px cyan solid;
 }
