@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 .background {
   display: block;
   border: 3px cyan solid;
@@ -22,13 +23,47 @@
   width: 40%;
   float: left;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+.registruokites {
+  font-family: "Merriweather", serif;
+  font-size: 38px;
+  color: white;
+  text-shadow: 2px 2px black;
+  hyphens: auto;
+}
+.privatumas {
+  display: inline-block;
+  border: 1px cyan solid;
+  margin-top: 80%;
 }
 .desinysis-stulpelis {
   display: inline-block;
   border: 1px cyan solid;
   width: 59%;
+  background-color: rgb(241, 244, 246);
 }
-.privatumas {
-  display: inline-block;
+.lentele {
+  display: block;
   border: 1px cyan solid;
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgb(141, 141, 141);
+  line-height: 1.8;
+}
+input {
+  border: none;
+  width: 70%;
+  height: 22px;
+}
+.downlabel {
+  display: block;
+  border: 1px cyan solid;
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
 }
